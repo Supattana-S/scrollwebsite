@@ -44,3 +44,14 @@
   font-size: 2rem;
 }
 
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+/* .navbar__item {
+  height: 80px;
+} */
+
+
