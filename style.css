@@ -6,7 +6,7 @@
   scroll-behavior: smooth;
 }
 
-/* .navbar {
+.navbar {
   background-color: #131313;
   height: 80px;
   display: flex;
@@ -18,7 +18,7 @@
   z-index: 999;
 }
 
-.navbar__container {
+/* .navbar__container {
   display: flex;
   justify-content: space-between;
   height: 80px;
