@@ -54,4 +54,12 @@
   height: 80px;
 }
 
-
+.navbar__links {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 125 px;
+  text-decoration: none;
+  height: 100%;
+}
