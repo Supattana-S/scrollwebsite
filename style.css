@@ -63,3 +63,11 @@
   text-decoration: none;
   height: 100%;
 }
+
+.navbar__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  width: 100%;
+}
