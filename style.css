@@ -357,3 +357,7 @@
   color: #fff;
   text-decoration: none;
 }
+
+.main__btn:hover {
+  color: #fff;
+}
