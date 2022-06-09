@@ -404,3 +404,16 @@
   background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
   background: linear-gradient(to right, #dd2476, #ff512f);
 }
+
+/* Mobile reponsive for About section */
+@media (max-width: 1100px) {
+  .main__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 90%;
+  }
+}
