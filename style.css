@@ -257,6 +257,9 @@
   background-size: 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
-  
 }
+
+.highlight {
+  border-bottom: 4px solid rgb(132, 0, 255);
+}
+
