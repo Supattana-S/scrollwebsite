@@ -130,7 +130,7 @@
     z-index: -1;
   }
 
-  .navbar__menu:active {
+  .navbar__menu.active {
     background: #131313;
     top: 100%;
     opacity: 1;
@@ -194,6 +194,4 @@
   #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(45deg);
   }
-
-
 }
