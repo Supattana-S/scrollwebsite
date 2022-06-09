@@ -106,7 +106,7 @@
   transition: all 0.3s ease;
 }
 
-@media (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .navbar__container {
     display: flex;
     justify-content: space-between;
@@ -406,7 +406,7 @@
 }
 
 /* Mobile reponsive for About section */
-@media (max-width: 1100px) {
+@media screen and (max-width: 1100px) {
   .main__container {
     display: grid;
     grid-template-columns: 1fr;
@@ -444,4 +444,7 @@
     margin-top: 1rem;
     font-size: 1.5rem;
   }
+}
+
+@media screen and (max-width: 480px) {
 }
