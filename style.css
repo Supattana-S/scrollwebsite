@@ -292,3 +292,8 @@
   max-width: 1300px;
   padding: 0 50px;
 }
+
+.main__content {
+  color: #fff;
+  width: 100%;
+}
