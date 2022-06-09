@@ -398,3 +398,9 @@
 .fa-users {
   font-size: 14rem;
 }
+
+#card-2 {
+  background: #ff512f;
+  background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
+  background: linear-gradient(to right, #dd2476, #ff512f);
+}
