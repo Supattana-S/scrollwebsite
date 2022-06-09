@@ -447,4 +447,8 @@
 }
 
 @media screen and (max-width: 480px) {
+  .main__img--card {
+    width: 250px;
+    height: 250px;
+  }
 }
