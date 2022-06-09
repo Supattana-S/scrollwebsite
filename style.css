@@ -338,19 +338,9 @@
 
 .main__btn {
   font-size: 1.8rem;
-  background: #8a2387; 
-  background: -webkit-linear-gradient(
-    to right,
-    #f27121,
-    #e94057,
-    #8a2387
-  );
-  background: linear-gradient(
-    to right,
-    #f27121,
-    #e94057,
-    #8a2387
-  );
+  background: #8a2387;
+  background: -webkit-linear-gradient(to right, #f27121, #e94057, #8a2387);
+  background: linear-gradient(to right, #f27121, #e94057, #8a2387);
   padding: 20px 60px;
   border: none;
   border-radius: 4px;
@@ -359,4 +349,11 @@
   position: relative;
   transition: all 0.35s;
   outline: none;
+}
+
+.main__btn a {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-decoration: none;
 }
