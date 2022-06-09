@@ -469,6 +469,8 @@
     margin-top: 2rem;
   }
 
-  
-
+  .main__btn {
+    padding: 12px 36px;
+    margin: 2.5rem 0;
+  }
 }
