@@ -421,4 +421,11 @@
     display: flex;
     justify-content: center;
   }
+
+  .main__img--card {
+    height: 425px;
+    width: 425px;
+  }
+
+  
 }
