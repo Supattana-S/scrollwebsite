@@ -13,7 +13,7 @@ menu.addEventListener("click", mobileMenu);
 // Show active menu when scrolling
 
 const highlightMenu = () => {
-  const highlight = document.querySelector(".highlight");
+  const highlightElem = document.querySelector(".highlight");
   const homeMenu = document.querySelector("#home-page");
   const aboutMenu = document.querySelector("#about-page");
   const servicesMenu = document.querySelector("#services-page");
@@ -37,5 +37,9 @@ const highlightMenu = () => {
     servicesMenu.classList.add("highlight");
     aboutMenu.classList.remove("highlight");
     return;
+  }
+
+  if((highlightElem && window.innerWidth < 960 && scrollPos < 600) || highlightElem) {
+    highlightElem.classList.remove('highlight')
   }
 };
