@@ -623,3 +623,7 @@
   justify-content: center;
 }
 
+.footer__link--wrapper {
+  display: flex;
+}
+
