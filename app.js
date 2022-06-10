@@ -39,7 +39,13 @@ const highlightMenu = () => {
     return;
   }
 
-  if((highlightElem && window.innerWidth < 960 && scrollPos < 600) || highlightElem) {
-    highlightElem.classList.remove('highlight')
+  if (
+    (highlightElem && window.innerWidth < 960) ||
+    highlightElem
+  ) {
+    highlightElem.classList.remove("highlight");
   }
 };
+
+window.addEventListener("scroll", highlightMenu);
+window.addEventListener("click", highlightMenu);
