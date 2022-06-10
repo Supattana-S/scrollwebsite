@@ -597,3 +597,13 @@
 }
 
 /* Footer CSS */
+
+.footer__container {
+  background-color: #131313;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
