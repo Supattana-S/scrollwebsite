@@ -574,3 +574,7 @@
   font-size: 1rem;
 }
 
+.services__card button:hover {
+  cursor: pointer;
+}
+
