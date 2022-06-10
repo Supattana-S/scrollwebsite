@@ -615,3 +615,11 @@
   text-decoration: none;
   font-size: 2rem;
 }
+
+.footer__links {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
