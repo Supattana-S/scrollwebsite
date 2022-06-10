@@ -39,13 +39,11 @@ const highlightMenu = () => {
     return;
   }
 
-  if (
-    (highlightElem && window.innerWidth < 960) ||
-    highlightElem
-  ) {
+  if ((highlightElem && window.innerWidth < 960) || highlightElem) {
     highlightElem.classList.remove("highlight");
   }
 };
 
 window.addEventListener("scroll", highlightMenu);
-window.addEventListener("click", highlightMenu);
+window.addEventListener("click", highlightMenu); // maybe it's no need for this line
+
