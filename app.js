@@ -50,5 +50,5 @@ window.addEventListener("click", highlightMenu); // maybe it's no need for this 
 // Close mobile menu when clicking on menu item
 
 const hideMobileMenu = () => {
-  
+  const menuBars = document.querySelector('.is-active')
 }
