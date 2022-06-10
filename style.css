@@ -658,3 +658,8 @@
   color: #fff;
   font-size: 24xp;
 }
+
+.social__media {
+  max-width: 1000px;
+  width: 100%;
+}
