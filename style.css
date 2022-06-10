@@ -695,4 +695,8 @@
   .website__rights {
     margin-bottom: 2rem;
   }
+
+  .footer__link--wrapper {
+    flex-direction: column;
+  }
 }
