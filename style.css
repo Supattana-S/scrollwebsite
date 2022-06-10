@@ -474,3 +474,15 @@
     margin: 2.5rem 0;
   }
 }
+
+/* Services Secrtion */
+
+.services {
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 10rem 0;
+}
