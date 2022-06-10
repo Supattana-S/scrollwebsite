@@ -687,4 +687,8 @@
   .footer__links {
     padding-top: 2rem;
   }
+
+  #footer__logo {
+    margin-bottom: 2rem;
+  }
 }
