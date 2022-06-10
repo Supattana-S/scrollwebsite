@@ -672,3 +672,9 @@
   max-width: 1000px;
   margin: 40px auto 0 auto;
 }
+.social__icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}
