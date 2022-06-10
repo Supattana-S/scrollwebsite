@@ -47,3 +47,8 @@ const highlightMenu = () => {
 window.addEventListener("scroll", highlightMenu);
 window.addEventListener("click", highlightMenu); // maybe it's no need for this line
 
+// Close mobile menu when clicking on menu item
+
+const hideMobileMenu = () => {
+  
+}
