@@ -654,3 +654,7 @@
   transition: 0.3 ease-out;
 }
 
+.social__icon--link {
+  color: #fff;
+  font-size: 24xp;
+}
